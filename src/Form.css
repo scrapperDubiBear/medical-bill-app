@@ -1,0 +1,120 @@
+ .form-container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #f4f4f4f4;
+    border-radius: 5px;
+  }
+
+  .section-1 {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+    font-family: 'Calibri';
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  .section-2 {
+    text-align: center;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    font-size: larger;
+    font-family: 'Calibri';
+    font-weight: bold;
+  }
+ 
+  .heading {
+    padding: 0.8em;
+    font-size: 28px;
+    font-family: Calibri;
+    background-color: #2268d1;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Calibri';
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .form-group .form-control {
+    flex-basis: auto;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    color: rgb(212, 0, 0);
+    margin-top: 5px;
+  }
+  
+  .submit-button-form {
+    background-color: #2268d1;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-left: 40%;
+    margin-right: 50%;
+  }
+  
+  .submit-button-form:hover {
+    background-color: #2268d1eb;
+  }
+  
+
+  /* OVERWRITE */
+  .form-group-inline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .form-group-inline .component {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 30px; 
+    -ms-grid-column-align: center;
+  }
+
+  .form-group-inline label {
+    padding: 10px 2px;
+  }
+
+  .form-group-inline .form-control {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .image-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+  }
+
+  .image {
+    padding: 0.5em;
+  }
+
+

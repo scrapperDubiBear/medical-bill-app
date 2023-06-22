@@ -1,0 +1,23 @@
+.main1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 3fr;
+    padding: 7rem 5rem;
+}
+
+.bill-card {
+    padding: 1rem;
+}
+
+.name-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 0.6em;
+}
+
+.no-bills-message {
+    color: rgba(128, 128, 128, 0.863);
+}
